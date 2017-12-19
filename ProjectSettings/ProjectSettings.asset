@@ -4,14 +4,14 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  productGUID: 0000a5984ed2c36418950b84cc81ba61
+  productGUID: c3be341e1ac31614e95e74d5a20e8bdc
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: TDD Camera Renderer
+  productName: tdd_screen_shoot_map
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -508,14 +508,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: TDD Camera Renderer
+  metroPackageName: tdd_screen_shoot_map
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: TDD Camera Renderer
+  metroApplicationDescription: tdd_screen_shoot_map
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -589,9 +589,9 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 0a94b66b-0707-44d4-8c66-32b9af688720
-  projectName: TDD Camera Renderer
-  organizationId: staces
+  cloudProjectId: 09213f89-ce37-4607-827e-ea3beaef4480
+  projectName: tdd_screen_shoot_map
+  organizationId: olivier-huttmacher
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Hello
 public class CameraMover : MonoBehaviour
 {
     #region Public Members

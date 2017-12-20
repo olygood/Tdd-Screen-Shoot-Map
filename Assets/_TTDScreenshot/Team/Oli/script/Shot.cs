@@ -4,7 +4,7 @@ using UnityEngine;
 //public AudioClip soundScreenShot;
 public class Shot : MonoBehaviour
 {
-    void TakeScreenShot (){
+  public void TakeScreenShot (){
 
  //GetComponent<AudioSource> (). PlayOneShot (soundScreenShot);//si j'ai pas ne pas le mettre
 

@@ -13,6 +13,11 @@ public class Editor_Screenshot : Editor
 
         CreateListOnInspector();
         SaveThePosition();
+
+        if (GUILayout.Button("Renderer"))
+        {
+            Debug.Log("Renderer");
+        }
     }
 
     private void CreateListOnInspector()

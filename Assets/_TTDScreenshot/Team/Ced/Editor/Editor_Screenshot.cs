@@ -10,6 +10,20 @@ public class Editor_Screenshot : Editor
     {
         DrawDefaultInspector();
         GUILayout.Label("List of position");
+
+        CreateListOnInspector();
+        SaveThePosition();
+    }
+
+    private void CreateListOnInspector()
+    {
+        GUILayout.BeginHorizontal();
+            GUILayout.Label("x: ");
+        GUILayout.EndHorizontal();
+    }
+
+    private void SaveThePosition()
+    {
         GUILayout.BeginHorizontal();
             GUILayout.Label("x:", GUILayout.Width(20));
             GUILayout.TextField("0", GUILayout.Width(50));
@@ -17,7 +31,7 @@ public class Editor_Screenshot : Editor
             GUILayout.TextField("0", GUILayout.Width(50));
             GUILayout.Label("z:", GUILayout.Width(20));
             GUILayout.TextField("0", GUILayout.Width(50));
-        if (GUILayout.Button("Save Position"))
+            if (GUILayout.Button("Save Position"))
             {
                 Debug.Log("Save Position");
             }

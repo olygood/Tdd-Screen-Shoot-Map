@@ -5,7 +5,8 @@ using UnityEngine;
 [AddComponentMenu("Auto-Screenshot/Screenshot")]
 public class Screenshot : MonoBehaviour
 {
-    public Transform m_position;
+    [SerializeField]
+    protected Transform m_position;
 
     private void Awake()
     {

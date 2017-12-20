@@ -10,6 +10,7 @@ public class Editor_Screenshot : Editor
     {
         rot = SceneView.lastActiveSceneView.rotation;
         pos = SceneView.lastActiveSceneView.camera.transform.position;
+        Shot sh = new Shot();
 
         DrawDefaultInspector();
         GUILayout.Label("List of position");
@@ -20,6 +21,7 @@ public class Editor_Screenshot : Editor
         if (GUILayout.Button("Renderer"))
         {
             Debug.Log("Renderer");
+            sh.TakeScreenShot();
         }
     }
 

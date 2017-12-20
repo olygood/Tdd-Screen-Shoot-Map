@@ -22,8 +22,11 @@ public class Editor_Screenshot : Editor
 
     private void CreateListOnInspector()
     {
+        Debug.Log("x: "+rot.x);
         GUILayout.BeginHorizontal();
-            GUILayout.Label("x: ");
+            GUILayout.Label("x: ", GUILayout.Width(50));
+            GUILayout.Label("y: ", GUILayout.Width(50));
+            GUILayout.Label("z: ", GUILayout.Width(50));
         GUILayout.EndHorizontal();
     }
 
@@ -42,4 +45,7 @@ public class Editor_Screenshot : Editor
             }
         GUILayout.EndHorizontal();
     }
+
+    private Quaternion rot = SceneView.lastActiveSceneView.rotation;
+    private Vector3 pos = SceneView.lastActiveSceneView.camera.transform.position;
 }
